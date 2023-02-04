@@ -1,0 +1,70 @@
+:root{
+    --negro: #000;
+    --blanco: #fff;
+    --primario: #017cb1;
+    --primarioOscuro: #052F5F;
+    --secundario: #8B786D;
+    --fuente-familia: 'VT323', monospace;
+}
+
+body{
+    background-color: var(--negro);
+    font-size: 1.6rem;
+    line-height: 3rem; /* Interlineado */
+}
+
+p{
+    font-size: 2.5rem;
+    font-family: var(--fuente-familia);
+    color: var(--blanco);
+}
+
+a{  
+    font-size: 2rem;
+    font-family: var(--fuente-familia);
+    text-decoration: none;
+    color: var(--primarioOscuro);
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--blanco);
+    font-family: var(--fuente-familia);
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 3.2rem;}
+h3{font-size: 2.4rem;}
+
+/* Header */
+header{
+    font-family: var(--fuente-familia);
+    color: var(--blanco);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion{
+    background-color: var(--blanco);
+    padding: 1rem 0;
+    display: grid;
+    text-align: center;
+    gap: 2rem; /* Separación Forma Nueva */
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.navegacion__enlace:hover{
+    background-color: var(--primario);
+}
+
+/*Contenedor*/
+.contenedor{
+    line-height: 10rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Screen\ Shot\ 2023-02-03\ at\ 17.44.06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
